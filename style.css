@@ -1,0 +1,9 @@
+.board {
+  display: flex;
+}
+
+.square {
+  width: 0px;
+  padding: 20px;
+  border: solid;
+}
