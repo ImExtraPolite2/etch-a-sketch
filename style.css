@@ -13,3 +13,7 @@
   padding: 20px;
   border: solid;
 }
+
+.change-color {
+  background-color: black;
+}

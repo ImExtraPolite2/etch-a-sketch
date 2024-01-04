@@ -14,4 +14,15 @@ const createBoard = () => {
   } 
 }
 
+const fillInSquare = () => {
+  const allSquares = document.querySelectorAll('.square');
+
+  allSquares.forEach(square => {
+    square.addEventListener('mouseover', () => {
+      square.classList.add('change-color');
+    })
+  })
+}
+
 createBoard();
+fillInSquare();
