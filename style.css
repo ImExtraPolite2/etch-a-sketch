@@ -1,4 +1,10 @@
-.board {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square-row {
   display: flex;
 }
 
